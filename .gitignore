@@ -172,3 +172,66 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# STM32CubeIDE build folders
+/Debug/
+/Release/
+/build/
+/out/
+
+# STM32CubeIDE metadata
+/.settings/
+/.cproject
+.project
+*.launch
+
+# STM32CubeMX generated files
+*.ioc
+
+# Object files and generated output
+*.o
+*.d
+*.elf
+*.hex
+*.bin
+*.map
+*.list
+*.ld
+
+# Makefile auto-generated (if not manually maintained)
+/Makefile
+/makefile
+
+# IDE crash logs and indexes
+.metadata/
+*.log
+
+# Keil uVision (if using it)
+*.uvoptx
+*.uvprojx
+*.bak
+
+# IAR Embedded Workbench
+*.ewd
+*.ewp
+*.ewt
+*.eww
+*.dep
+
+# Other auto-generated IDE stuff
+*.sdf
+*.db
+*.suo
+*.user
+*.sln
+*.swp
+*.ncb
+
+# CMSIS auto-generated/system files (optional)
+Middlewares/
+Drivers/CMSIS/Documentation/
+
+# Backup and temp files
+*~
+*.tmp
+*.bak
